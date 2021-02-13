@@ -76,3 +76,12 @@ git push
 ```
 
 
+**touch** - updates the timestamp of a file or creates a new file if the filename does not already exist
+
+```
+# update the timestamp of a file that has already been created called fileOne
+
+touch fileOne
+```
+
+

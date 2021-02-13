@@ -60,4 +60,19 @@ $ echo test output
 ```
 
 
+**git add** - adds file to be committed to git repository
+
+```
+# add a file named fileOne
+
+git add fileOne
+```
+
+**git push** - pushes the updated files to git repository
+
+```
+# push all updated files 
+git push
+```
+
 

@@ -7,3 +7,57 @@ rm -rf folderOne
 ```
 
 
+**cp** - a command to copy a file from the filesystem. Use the '-r' flad to copy files and directories recursively.
+
+```
+# copy a file named fileOne and rename it fileTwo.
+
+cp fileOne fileTwo
+```
+
+
+**mv** - a command to move a file to another directory or rename a file. Use the new filename or directory name to move to.
+
+```
+# move a file name fileOne to a directory called directoryOne
+
+mv fileOne directoryOne
+```
+
+**chmod** - change permissions for a fiel. Only accessible to creator of the file
+
+```
+#change permissions of a file name fileOne for user to be able to write to a file named fileOne
+
+chmod u+w fileOne
+```
+
+
+**cd** - a command to change directories. 
+
+```
+#change from home directory to directory named directoryOne
+
+cd directoryOne
+```
+
+
+**ls** - a command that lists the directory contents of directories and files.
+
+```
+#list directories and files from a directory named directoyOne
+
+ls directoryOne
+```
+
+
+**echo** - a command that writes its arguments to standard output
+
+```
+#display input text of 'test output' using the echo command
+
+$ echo test output
+```
+
+
+

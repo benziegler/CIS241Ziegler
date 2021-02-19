@@ -85,3 +85,12 @@ touch fileOne
 ```
 
 
+**grep** - command that searches for text that match regular expression
+
+```
+# searches a file called fileOne for a string "sample"
+
+grep "sample" fileOne
+```
+
+

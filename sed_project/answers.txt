@@ -1,0 +1,15 @@
+
+1) cat /usr/share/dict/american-english | sed -E 's/color/colour/g; s/honor/honour/g; s/behavior/behaviour/g; s/humor/humour/g' > new_dict
+
+2) cat prog.c | sed -E 's/FOOPS/if/g' | sed -E 's/BEEPBOOP/\/**/g' > MyFile.c
+
+3) sed -E '/<script>/, /<\/script>/ d' faculty > faculty.index
+
+4)  sed -En '/# {0,3} define/ p' /usr/include/limits.h > clean_limits.h
+
+5) sed -iORIG 's/gattaca/@@GREAT MOVIE@@/g' dna.txt
+
+6) sed -f ascii /home/woodriir/241/file > decoded
+
+7) sed -n '50,78 p' /home/woodriir/241/lyrics > ending_lyrics
+

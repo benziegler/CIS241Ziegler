@@ -13,4 +13,4 @@
 
 7) sed -n '50,78 p' /home/woodriir/241/lyrics > ending_lyrics
 
-
+8) ./hwinfo.sh

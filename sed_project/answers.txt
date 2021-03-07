@@ -3,7 +3,7 @@
 
 2) cat prog.c | sed -E 's/FOOPS/if/g' | sed -E 's/BEEPBOOP/\/**/g' > MyFile.c
 
-3) sed -E '/<script>/, /<\/script>/ d' faculty > faculty.index
+3) sed -E '/<script/, /<\/script>/ d' faculty > faculty.index
 
 4)  sed -En '/# {0,3} define/ p' /usr/include/limits.h > clean_limits.h
 
@@ -15,6 +15,7 @@
 
 
 8)
+
 echo
 lscpu | sed -n '/^CPU(s):/ p'
 

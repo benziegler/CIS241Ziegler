@@ -206,8 +206,6 @@ double quadratic(double a, double b, double c){
  */
 #include <stdio.h>
 void capitalize(char* str, size_t len){
-//	char t[len];
-//	str = t;
 
 
 	for (int i = 0; i < len; ++i){
